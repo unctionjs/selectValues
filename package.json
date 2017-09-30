@@ -1,5 +1,5 @@
 {
-  "name": "@unction/{{FQNAME}}",
+  "name": "@unction/selectvalues",
   "version": "1.0.0",
   "description": "",
   "keywords": [
@@ -14,9 +14,9 @@
     }
   ],
   "license": "ISC",
-  "homepage": "https://github.com/unctionjs/{{NAME}}#readme",
-  "repository": "github:unctionjs/{{NAME}}",
-  "bugs": "https://github.com/unctionjs/{{NAME}}/issues",
+  "homepage": "https://github.com/unctionjs/selectValues#readme",
+  "repository": "github:unctionjs/selectValues",
+  "bugs": "https://github.com/unctionjs/selectValues/issues",
   "main": "transpiled/index.js",
   "files": [
     "transpiled/index.js"
@@ -38,6 +38,7 @@
     "watch": "chokidar './index.js' './test.js' --command 'npm run ci --silent'"
   },
   "devDependencies": {
+    "@unction/streamsatisfies": "2.0.0",
     "babel-cli": "6.24.1",
     "babel-core": "6.25.0",
     "babel-eslint": "7.2.3",
@@ -46,7 +47,9 @@
     "babel-preset-env": "1.6.0",
     "babel-preset-flow": "6.23.0",
     "chokidar-cli": "1.2.0",
-    "eslint": "3.19.0",
+    "eslint": "4.7.2",
+    "eslint-find-new-rules": "2.0.2",
+    "eslint-find-rules": "3.1.1",
     "eslint-plugin-babel": "4.1.2",
     "eslint-plugin-flowtype": "2.35.0",
     "eslint-plugin-immutable": "1.0.0",
@@ -56,9 +59,13 @@
     "flow-bin": "0.51.1",
     "flow-typed": "2.1.5",
     "nyc": "11.1.0",
-    "tap": "10.7.2"
+    "tap": "10.7.2",
+    "xstream": "10.9.0"
   },
   "dependencies": {
+    "@unction/attach": "3.5.0",
+    "@unction/fresh": "3.2.0",
+    "@unction/reducewithvaluekey": "4.4.0",
     "ramda": "0.24.1"
   }
 }

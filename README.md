@@ -1,17 +1,17 @@
-# @unction/{{NAME}}
+# @unction/selectValues
 
 ![Tests][BADGE_TRAVIS]
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> mixed -> mixed
+> PredicateFunctionType => FunctorType => FunctorType
 
-An example function.
+Given a predicate and a functor it returns a functor of the same type containing values that returned true for the predicate.
 
 ``` javascript
-{{NAME}}(1) // 1
+selectValues(isOdd)([1, 2, 3, 4]) // [1, 3]
 ```
 
-[BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/{{NAME}}.svg?maxAge=2592000&style=flat-square
+[BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/selectValues.svg?maxAge=2592000&style=flat-square
 [BADGE_STABILITY]: https://img.shields.io/badge/stability-strong-green.svg?maxAge=2592000&style=flat-square
-[BADGE_DEPENDENCY]: https://img.shields.io/david/unctionjs/{{NAME}}.svg?maxAge=2592000&style=flat-square
+[BADGE_DEPENDENCY]: https://img.shields.io/david/unctionjs/selectValues.svg?maxAge=2592000&style=flat-square
