@@ -47,7 +47,7 @@
     "babel-preset-env": "1.6.1",
     "babel-preset-flow": "6.23.0",
     "chokidar-cli": "1.2.0",
-    "eslint": "4.7.2",
+    "eslint": "4.13.1",
     "eslint-find-new-rules": "2.0.2",
     "eslint-find-rules": "3.1.1",
     "eslint-plugin-babel": "4.1.2",
