@@ -65,8 +65,8 @@
     "xstream": "11.1.0"
   },
   "dependencies": {
-    "@unction/attach": "3.14.1",
-    "@unction/fresh": "4.0.0",
+    "@unction/attach": "4.0.0",
+    "@unction/fresh": "5.0.0",
     "@unction/reducewithvaluekey": "5.0.0",
     "ramda": "0.24.1"
   }
