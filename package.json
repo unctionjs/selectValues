@@ -67,7 +67,7 @@
   "dependencies": {
     "@unction/attach": "5.0.0",
     "@unction/fresh": "6.0.0",
-    "@unction/reducewithvaluekey": "7.0.0",
+    "@unction/reducewithvaluekey": "8.0.0",
     "ramda": "0.24.1"
   }
 }
