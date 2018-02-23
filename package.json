@@ -67,6 +67,6 @@
   "dependencies": {
     "@unction/attach": "5.0.0",
     "@unction/fresh": "6.0.0",
-    "@unction/reducewithvaluekey": "8.0.0"
+    "@unction/reducewithvaluekey": "10.1.0"
   }
 }
