@@ -1,3 +1,5 @@
+**NOTE: This library has been deprecated in favor of [unction/selectByValue](https://github.com/unctionjs/selectByValue)**
+
 # @unction/selectValues
 
 ![Tests][BADGE_TRAVIS]
